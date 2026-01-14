@@ -71,20 +71,21 @@ http://localhost:8080
 
 ## Service Endpoints
 
-Chaque service (GitHub, Discord, Microsoft, Gmail, Jira, Twitch) propose les endpoints suivants :
+Each service (GitHub, Discord, Microsoft, Gmail, Jira, Twitch) provides the following endpoints:
 
-**Webhooks communs :**
-- `POST /<service>/create-webhook` - Créer un webhook
-- `GET /<service>/webhooks` - Lister les webhooks de l'utilisateur
-- `DELETE /<service>/webhook?id=<id>` - Supprimer un webhook
-- `POST /<service>/webhook` - Réception des événements webhook (appelé par le service)
+**Common Webhooks:**
+- `POST /<service>/create-webhook` - Create a webhook
+- `GET /<service>/webhook` - List user's webhooks
+- `GET /<service>/webhook/:hookId` - Get details for specific webhook
+- `DELETE /<service>/webhook/:hookId` - Delete a webhook
+- `POST /<service>/webhook` - Receive webhook events (called by the service)
 
-**Endpoints spécifiques :**
+**Service-Specific Endpoints:**
 
-- **GitHub:** `GET /github/repositories` - Liste des dépôts
-- **Discord:** `GET /discord/guilds` - Liste des serveurs, `GET /discord/guilds/:id/channels` - Canaux, `POST /discord/messages` - Envoyer un message
-- **Jira:** `GET /jira/projects` - Liste des projets
-- **Twitch:** `GET /twitch/followed-channels` - Chaînes suivies
+- **GitHub:** `GET /github/repositories` - List repositories
+- **Discord:** `GET /discord/guilds` - List servers, `GET /discord/guilds/:id/channels` - List channels, `POST /discord/messages` - Send a message
+- **Jira:** `GET /jira/projects` - List projects
+- **Twitch:** `GET /twitch/followed-channels` - List followed channels
 
 ## Actions & Reactions by Service
 

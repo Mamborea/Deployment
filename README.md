@@ -1,5 +1,10 @@
 # AREA - Action-REAction Platform
 
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18.1-blue.svg)](https://www.postgresql.org/)
+[![NestJS](https://img.shields.io/badge/NestJS-11.1.9-blue.svg)](https://nestjs.com/)
+[![React](https://img.shields.io/badge/React-19.2-blue.svg)](https://nestjs.com/)
+[![React Native](https://img.shields.io/badge/React%20Native-0.82.1-blue.svg)](https://nestjs.com/)
+
 Automation platform similar to IFTTT/Zapier, allowing users to create workflows by connecting Actions to REActions.
 
 ## Project Structure
@@ -37,8 +42,6 @@ DB_PASSWORD=your_password
 DB_DATABASE=area_db
 
 JWT_SECRET=your-jwt-secret
-GITHUB_CLIENT_ID=your_github_client_id
-GITHUB_CLIENT_SECRET=your_github_client_secret
 
 FRONTEND_URL=http://localhost:8081
 VITE_API_URL=http://localhost:8080
@@ -83,10 +86,25 @@ Key endpoint: `GET /about.json` (server metadata)
 
 See [HOWTOCONTRIBUTE.md](docs/HOWTOCONTRIBUTE.md) for adding services, actions, and reactions.
 
+## Useful Links
+
+- [Official status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)
+- [Github documentation](https://docs.github.com/en/rest)
+- [Oauth documentation](https://auth0.com/docs)
+- [PostgreSQL documentation](https://www.postgresql.org/docs)
+- [NestJS documentation](https://docs.nestjs.com)
+- [React documentation](https://react.dev/reference/react)
+- [React Native](https://reactnative.dev/docs/getting-started)
+
 ## Authors
 
-- Mattéo Milin
-- Nathan Callegari
-- Corentin Bergaentzle
-- Thomas Richalet
-- Axel Battigelli
+- **Mattéo Milin** - matteo.milin@epitech.eu
+- **Nathan Callegari** - nathan.callegari@epitech.eu
+- **Corentin Bergaentzle** - corentin.bergaentzle@epitech.eu
+- **Thomas Richalet** - thomas.richalet@epitech.eu
+- **Axel Battigelli** - axel.battigelli@epitech.eu
+
+## License
+
+This project is developed for educational purposes as part of the EPITECH curriculum.
+See LICENSE for more informations
