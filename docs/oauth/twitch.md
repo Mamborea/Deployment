@@ -7,9 +7,8 @@
 3. Fill in the details:
    - **Name:** AREA
    - **OAuth Redirect URLs:** `http://localhost:8081/twitch/callback`
-   - **Category:** Select appropriate category
-4. Complete the CAPTCHA
-5. Click **"Create"**
+   - **Category:** Select Application Integration
+4. Click **"Create"**
 
 ## Get Credentials
 
@@ -25,7 +24,7 @@ Add these to your `.env` file:
 ```env
 TWITCH_CLIENT_ID=your_client_id_here
 TWITCH_CLIENT_SECRET=your_client_secret_here
-TWITCH_CALLBACK_URL=http://localhost:8081/twitch/callback
+TWITCH_CALLBACK_URL=https://your-public-url/twitch/callback
 TWITCH_WEBHOOK_SECRET=your_random_secret_here
 ```
 

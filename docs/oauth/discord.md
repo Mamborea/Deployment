@@ -36,7 +36,7 @@ DISCORD_CALLBACK_URL=http://localhost:8081/discord/callback
 3. Enable these **Privileged Gateway Intents:**
    - Server Members Intent
    - Message Content Intent
-4. Copy the bot token
+4. Click **"Reset Token"** and copy the bot token
 
 Add to `.env`:
 
