@@ -2,13 +2,11 @@
 
 ## Overview
 
-**Technology Stack:** React 19 + Vite + TypeScript  
-**State Management:** Redux Toolkit + RTK Query  
-**Routing:** React Router v7  
-**UI Library:** ReactFlow (visual editor)
-
----
-
+**Technology Stack:** React 19 + Vite + TypeScript
+**State Management:** Redux Toolkit + RTK Query
+**Routing:** React Router v7
+**UI Library:** ReactFlow (visual editor) + Dagre (auto-layout)
+**Notifications:** React-Toastify (toast notifications)
 ## Project Structure
 
 ```
@@ -160,6 +158,7 @@ Users drag-and-drop services instead of filling complex forms.
 2. **Visual Connections:** Connect Action → Reaction with edges (ReactFlow)
 3. **Dynamic Forms:** Configuration modal adapts to service type
 4. **Live Sync:** Fetches existing webhooks, displays on canvas
+5. **Auto-Layout (Dagre):** Automatic node positioning for clean graph layout
 
 ### Custom Hooks
 
@@ -210,6 +209,17 @@ Users drag-and-drop services instead of filling complex forms.
 - Mobile: `<768px` → MobileLayout
 - Tablet: `768-1024px`
 - Desktop: `>1024px` → AppLayout
+
+### 5. Toast Notifications (React-Toastify)
+
+**Used for:**
+- Success messages (AREA created, service connected)
+- Error alerts (API failures, validation errors)
+
+**Why:**
+- **Non-intrusive:** Doesn't block UI
+- **Auto-dismiss:** Disappears automatically
+- **Clear feedback:** Visual confirmation of actions
 
 ---
 

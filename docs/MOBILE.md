@@ -186,9 +186,11 @@ const styles = StyleSheet.create({
 ### Design System
 
 **Colors:**
-- Primary: `#e94560` (pink/red)
-- Background: `#0f3460` (dark blue)
-- Header: `#16213e` (darker blue)
+- Primary: `#1a1a2e` (dark blue-gray)
+- Accent: `#e94560` (pink/red) - used for alerts and logout
+- Background: `#e9e9e9` (light gray)
+- Text: `#000000` (black)
+- Secondary text: `#888` (gray)
 
 **Layout:** Flex-based with safe area handling
 
@@ -242,7 +244,8 @@ docker compose build client_mobile
 # APK served at http://localhost:8081/client.apk
 ```
 
----
+---- Info notifications (webhook triggered)
+
 
 ## Accessibility
 
