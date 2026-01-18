@@ -79,6 +79,8 @@ Key endpoint: `GET /about.json` (server metadata)
 
 - [Setup Guide](docs/SETUP.md)
 - [API Reference](docs/API.md)
+- [Frontend Architecture](docs/FRONTEND.md)
+- [Mobile Architecture](docs/MOBILE.md)
 - [How to Contribute](docs/HOWTOCONTRIBUTE.md)
 - [Architecture](docs/ARCHITECTURE.md)
 
