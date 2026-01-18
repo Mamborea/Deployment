@@ -6,6 +6,7 @@
 
 * Development
   * [API Reference](API.md)
+  * [Frontend Architecture](FRONTEND.md)
   * [How to Contribute](HOWTOCONTRIBUTE.md)
 
 * OAuth Setup

@@ -6,6 +6,7 @@ Complete documentation for the AREA project.
 
 - [Setup Guide](SETUP.md) - Installation and configuration
 - [API Reference](API.md) - REST API endpoints
+- [Frontend Architecture](FRONTEND.md) - React architecture and components
 - [How to Contribute](HOWTOCONTRIBUTE.md) - Adding services and features
 - [Architecture](ARCHITECTURE.md) - System design and components
 
